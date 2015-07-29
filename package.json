@@ -1,0 +1,32 @@
+{
+  "name": "pplanter",
+  "version": "0.0.0",
+  "description": "packages for pplanter website",
+  "main": "index.js",
+  "scripts": {
+    "test": "fap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewchew/pplanter.git"
+  },
+  "author": "AV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mewchew/pplanter/issues"
+  },
+  "homepage": "https://github.com/mewchew/pplanter",
+  "dependencies": {
+    "gulp-install": "^0.4.0",
+    "gulp-livereload": "^3.8.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
