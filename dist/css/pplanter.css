@@ -44,7 +44,10 @@ body {
   background-image: none;
   display: table;
   width: 100%;
-  min-height: 100%;
+  min-height: 800px;
+}
+.project-color {
+  background-color: lightblue;
 }
 .img-bk {
   background-image: url("../../src/content/img/pplanter_main.jpg");
@@ -70,6 +73,10 @@ body {
 /*
  * Header
  */
+.masthead {
+  position: relative;
+  z-index: 10;
+}
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;

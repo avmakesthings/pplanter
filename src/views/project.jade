@@ -2,15 +2,17 @@ extends layout.jade
 
 block content
   .container-fluid 
-    img(src="../src/content/img/pplanter_diagram.png" USEMAP="#diagram")
+    include ../content/img/pplanter_diagram1.svg
+    //- object.diagram(type='image/svg+xml', data='../src/content/img/pplanter_diagram1.svg')
+    //- img(src="../src/content/img/pplanter_diagram.png" USEMAP="#diagram")
 
 
-    map#diagram(name='diagram')
-      area(shape='poly', alt='', title='watertank', coords='692,263,729,242,837,305,840,310,842,406,805,428,688,357,690,305', href='', target='_self')
-      area(shape='poly', alt='', title='urinal', coords='504,226,520,214,688,316,688,347,587,406,586,414,576,420,576,485,485,430,487,390,473,382,474,379,494,369,502,250', href='', target='_self')
-      area(shape='poly', alt='', title='planters', coords='472,688,469,486,413,453,460,430,471,189,178,358,183,560,428,702,437,699,443,704,461,693', href='', target='_self')
-      area(shape='poly', alt='', title='sink', coords='743,436,800,469,793,522,737,540,635,477,636,455,687,430,686,397,737,431', href='', target='_self')
-      // Thanks to Online Image Map Editor (http://www.maschek.hu/imagemap/index)
+    //- map#diagram(name='diagram')
+    //-   area(shape='poly', alt='', title='watertank', coords='692,263,729,242,837,305,840,310,842,406,805,428,688,357,690,305', target='_self')
+    //-   area(shape='poly', alt='', title='urinal', coords='504,226,520,214,688,316,688,347,587,406,586,414,576,420,576,485,485,430,487,390,473,382,474,379,494,369,502,250', target='_self')
+    //-   area(shape='poly', alt='', title='planters', coords='472,688,469,486,413,453,460,430,471,189,178,358,183,560,428,702,437,699,443,704,461,693', target='_self')
+    //-   area(shape='poly', alt='', title='sink', coords='743,436,800,469,793,522,737,540,635,477,636,455,687,430,686,397,737,431', target='_self')
+    //-   // Thanks to Online Image Map Editor (http://www.maschek.hu/imagemap/index)
 
 
 
@@ -26,3 +28,7 @@ block content
     //-     p.lead.left
     //-       a.btn.btn-lg.btn-default(href='#') Learn more
     //-   .col-lg-6          
+        
+block bottom
+  script.
+    projectReady();

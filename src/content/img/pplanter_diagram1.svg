@@ -9,7 +9,7 @@
 <svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 	 x="0px" y="0px" width="1280px" height="1020px" viewBox="0 0 1280 1020" enable-background="new 0 0 1280 1020"
-	 xml:space="preserve">
+	 xml:space="preserve" id="project_diagram">
 <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -74,140 +74,7 @@
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:Manifest>
-            <rdf:Seq>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
-                  <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>/Users/mmf/Desktop/normal_ian-symbol-festuca-spp.png</stRef:filePath>
-                  </stMfs:reference>
-               </rdf:li>
-            </rdf:Seq>
+
          </xmpMM:Manifest>
       </rdf:Description>
       <rdf:Description rdf:about=""
@@ -762,6 +629,24 @@
                            
 <?xpacket end="w"?>
 	</metadata>
+<g id="areas" >
+   <polygon id="freshwater" fill="none" points="1052.807,506.806 1052,386 909.937,303.976 865,329.877 865,452 1006.288,533.664   
+      "/>
+   <path id="urinal" fill="none" d="M720.327,605.102l-106.229-62.048l3.769-48.012l-19.177-11.196l0.656-4.911l20.371-7.382
+      l13.215-188.767l16.077-9.417L864,398.018V431l-130.588,76.335l-0.803,11.06l-8.51,5.111c0,0-3.1,1.66-3.1,5.827s0,7.667,0,7.667
+      L720.327,605.102z"/>
+   <path id="sink" fill="none" d="M802.282,595.618l-1.082,5.165l123.372,71.229l68.104-17.66l6.558-69.358l-138.232-79.808
+      c0,0-1.728-0.035-2.163,1.248s0,2.498,0,2.498l4.524,3.402l0.612,29.538l8.157,4.709l-3.394,24.143L802.282,595.618z"/>
+   <polygon id="pump" fill="none" points="802.268,574.199 810.425,578.908 871.125,555.862 872.132,546.58 863.362,542.223 
+      802.436,571.708   "/>
+   <polygon id="plants" fill="none" points="584.244,250.346 609.026,265.979 293.019,446.848 571.757,610.084 541.177,625.682 
+      236.764,447.288   "/>
+   <g id="blackwater">
+      <polygon fill="none" points="232.601,463.721 537.091,639.518 535.062,708.369 240.059,538.049       "/>
+      <polygon fill="none" points="232.35,616.629 535.062,791.4 535.417,862.016 239.33,691.219     "/>
+   </g>
+</g>
+
 <g id="base_image">
 	<path fill="#FFDE14" d="M730.475,524.943c-0.501,0.285-1.001,0.57-1.501,0.855c-0.655,0.373-1.311,0.746-1.964,1.119
 		c-0.674,0.385-1.242,0.793-1.652,1.491c-0.408,0.698-0.484,1.396-0.488,2.171c-0.005,0.754-0.009,1.507-0.014,2.261
@@ -1928,71 +1813,6 @@
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" x1="871.377" y1="555.332" x2="870.874" y2="555.52"/>
 	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374CA.png"  transform="matrix(0.3204 0 0 0.3204 473.5693 686.1348)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374CE.png"  transform="matrix(0.3204 0 0 0.3204 422.084 654.998)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374C9.png"  transform="matrix(0.3204 0 0 0.3204 362.4404 623.5908)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374CB.png"  transform="matrix(0.3204 0 0 0.3204 305.6562 593.2441)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374C8.png"  transform="matrix(0.3204 0 0 0.3204 255.9355 565.4414)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374D6.png"  transform="matrix(0.3204 0 0 0.3204 209.7139 539.7773)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374D9.png"  transform="matrix(0.3204 0 0 0.3204 366.9141 476.6997)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374DA.png"  transform="matrix(0.3204 0 0 0.3204 457.7188 386.4839)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="E8880CF3A10374D8.png"  transform="matrix(0.3204 0 0 0.3204 408.2129 415.394)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE18D.png"  transform="matrix(0.3204 0 0 0.3204 363.9736 436.4238)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE183.png"  transform="matrix(0.3204 0 0 0.3204 506.6621 358.1792)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE185.png"  transform="matrix(0.3204 0 0 0.3204 468.9268 530.8301)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE187.png"  transform="matrix(0.3204 0 0 0.3204 415.46 504.2236)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE184.png"  transform="matrix(0.3204 0 0 0.3204 310.8887 443.1475)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE19C.png"  transform="matrix(0.3204 0 0 0.3204 257.3643 408.5913)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE19D.png"  transform="matrix(0.3204 0 0 0.3204 205 379.4341)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE19F.png"  transform="matrix(0.3204 0 0 0.3204 242.6484 352.9316)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE19B.png"  transform="matrix(0.3204 0 0 0.3204 304.5527 317.813)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE186.png"  transform="matrix(0.3204 0 0 0.3204 355.7002 283.6035)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE1B8.png"  transform="matrix(0.3204 0 0 0.3204 405.0713 256.4531)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE1BB.png"  transform="matrix(0.3204 0 0 0.3204 456.1377 225.7661)">
-	</image>
-	
-		<image overflow="visible" width="400" height="319" xlink:href="9BA9DF36457FE1B9.png"  transform="matrix(0.3204 0 0 0.3204 513.6367 199.5654)">
-	</image>
 	<text transform="matrix(0.8453 0.5343 -0.5343 0.8453 1043.4775 328.313)" font-family="'DINPro-Bold'" font-size="18">FRESH WATER</text>
 	<text transform="matrix(0.8648 0.5021 -0.5021 0.8648 764.1855 306.8926)" font-family="'DINPro-Bold'" font-size="18">GRAYWATER</text>
 	<text transform="matrix(0.8648 0.5021 -0.5021 0.8648 579.9038 196.8926)" font-family="'DINPro-Bold'" font-size="18">BLACKWATER</text>
@@ -2061,21 +1881,5 @@
 		</g>
 	</g>
 </g>
-<g id="areas">
-	<polygon id="freshwater" fill="none" points="1052.807,506.806 1052,386 909.937,303.976 865,329.877 865,452 1006.288,533.664 	
-		"/>
-	<path id="urinal" fill="none" d="M720.327,605.102l-106.229-62.048l3.769-48.012l-19.177-11.196l0.656-4.911l20.371-7.382
-		l13.215-188.767l16.077-9.417L864,398.018V431l-130.588,76.335l-0.803,11.06l-8.51,5.111c0,0-3.1,1.66-3.1,5.827s0,7.667,0,7.667
-		L720.327,605.102z"/>
-	<path id="sink" fill="none" d="M802.282,595.618l-1.082,5.165l123.372,71.229l68.104-17.66l6.558-69.358l-138.232-79.808
-		c0,0-1.728-0.035-2.163,1.248s0,2.498,0,2.498l4.524,3.402l0.612,29.538l8.157,4.709l-3.394,24.143L802.282,595.618z"/>
-	<polygon id="pump" fill="none" points="802.268,574.199 810.425,578.908 871.125,555.862 872.132,546.58 863.362,542.223 
-		802.436,571.708 	"/>
-	<polygon id="plants" fill="none" points="584.244,250.346 609.026,265.979 293.019,446.848 571.757,610.084 541.177,625.682 
-		236.764,447.288 	"/>
-	<g id="blackwater">
-		<polygon fill="none" points="232.601,463.721 537.091,639.518 535.062,708.369 240.059,538.049 		"/>
-		<polygon fill="none" points="232.35,616.629 535.062,791.4 535.417,862.016 239.33,691.219 		"/>
-	</g>
-</g>
+
 </svg>
