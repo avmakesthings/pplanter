@@ -9,6 +9,67 @@ Check PPlanter git repository for more details
 
 */
 
+Snap.plugin(function (Snap, Element, Paper, glob) {
+    var elproto = Element.prototype;
+    elproto.toFront = function () {
+        this.prependTo(this.paper);
+    };
+    elproto.toBack = function () {
+        this.appendTo(this.paper);
+    };
+});
+
+// Utility functions
+
+function mouseoverHandler(e){
+    Snap(e.target).animate({fill: "rgb(244, 255, 76)", opacity: 0.5}, 500);
+}
+
+function mouseoutHandler(e){
+    Snap(e.target).animate({ fill: "#FFFFFF", opacity: 0}, 500);
+}
+
+function clickHandler(e){
+    console.log(e.target)
+}
+
+function snapDemo(){
+    // First lets create our drawing surface out of existing SVG element
+    // If you want to create new surface just provide dimensions
+    // like s = Snap(800, 600);
+    var s = Snap("#svg");
+    // Lets create big circle in the middle:
+    var bigCircle = s.circle(150, 150, 100);
+    // By default its black, lets change its attributes
+    bigCircle.attr({
+        fill: "#bada55",
+        stroke: "#000",
+        strokeWidth: 5
+    });
+
+    bigCircle.mouseover( mouseoverHandler );
+    bigCircle.mouseout( mouseoutHandler );
+    bigCircle.click( clickHandler );
+}
+
+function makeProjectDiagram(){
+    var s = Snap("#project_diagram");
+    // Snap.load("../src/content/img/pplanter_diagram3.svg", onSVGLoaded ) ;
+    var areas = s.select('#areas');
+    // Elements in the back of the SVG intercept click events
+    areas.toBack();
+    areas.selectAll("*").forEach( function(area){
+        // Elements only intercept click events if they're filled
+        area.attr({ fill: "#FFFFFF", opacity: 0});
+        // Assign handlers
+        area.mouseover( mouseoverHandler );
+        area.mouseout( mouseoutHandler );
+        area.click( clickHandler );
+    })
+}
+
+// OnLoad functions
+
 function indexReady(){
     $( "div.site-wrapper" ).toggleClass( "img-bk" );
     console.log("index ready!!!!")
@@ -25,40 +86,10 @@ function projectReady(){
     $( "div.site-wrapper" ).toggleClass( "project-color" );
     // Colors the footer
     $( "footer.mastfoot" ).parent().toggleClass( "project-color" );
-
-    // Assign handlers for interactive diagram
-    // NOTE: I assigned an 'id' attribute of 'project_diagram' 
-    // to the top level of the svg
-    // Also, had to rearrange areas to come first because z-index
-    // is determined by the order in which things appear in the document.
-    // $("#urinal").click(function() {
-    //    alert(console.log("selected!!!!!"));        
-    // });
-    // project_diagram.getElementById("urinal").addEventListener("click", function(e){ 
-    //     e.target.setAttribute("fill", "lime");
-    //     console.log("You clicked the sink!!!!");
-    // }, false);
-
-    // Assign click handlers for interactive diagram
-    // $( "area[title='sink']").click( function(e){
-    //     console.log("You clicked the sink!!!!");
-    // })
-
+    makeProjectDiagram();
+    snapDemo();
 }
 
 function storyReady(){
     console.log("story ready!!!!")
 }
-
-//Change out background image for site wrapper 
-
-// jquery( document ).ready(function('templates') {
-//   // Handler for .ready() called.
-//   if ('template'=='index.jade'){
-//     $( "div.site-wrapper" ).toggleClass( "img-bk" )
-//   }else {
-//     $( "div.site-wrapper" )  
-//     } 
-// });
-
-

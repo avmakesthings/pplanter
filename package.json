@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mewchew/pplanter",
   "dependencies": {
     "gulp-install": "^0.4.0",
+    "gulp-jade": "^1.1.0",
     "gulp-livereload": "^3.8.0",
     "jade": "^1.11.0"
   },
