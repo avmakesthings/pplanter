@@ -1,4 +1,7 @@
 /*
+ * Variables
+ */
+/*
  * Fonts
  */
 .left {
@@ -6,6 +9,9 @@
 }
 .spaced {
   letter-spacing: 10px;
+}
+.highlight {
+  color: #7bbba6;
 }
 /*
  * Links/buttons
@@ -24,7 +30,41 @@ a:hover {
 }
 .btn-default .btn-default:hover,
 .btn-default .btn-default:focus {
-  background-color: black;
+  background-color: white;
+}
+.btn:focus,
+.btn:hover {
+  background-color: #7bbba6;
+  color: white;
+}
+/*
+ * Images
+ */
+.diagram-size {
+  height: 600px!important;
+}
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  height: 700px;
+}
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.svg-overlay {
+  position: absolute;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: left;
+  padding: 10px;
+  max-width: 20%;
+  border-radius: 5px;
 }
 /*
  * Base structure
@@ -47,7 +87,7 @@ body {
   min-height: 800px;
 }
 .project-color {
-  background-color: lightblue;
+  background-color: #7bbba6;
 }
 .img-bk {
   background-image: url("../../src/content/img/pplanter_main.jpg");
@@ -69,6 +109,40 @@ body {
   position: relative;
   top: 250px;
   padding: 30px;
+}
+/*
+ * Carousel
+ */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none!important;
+}
+.carousel-caption {
+  top: 200px;
+  left: 2%;
+  text-align: left;
+  right: 0;
+  padding-right: 50%;
+}
+.carousel-indicators {
+  padding-left: 77%;
+}
+.carousel-indicators > li {
+  display: inherit;
+  height: 30px;
+  margin: 5px 0px 5px 0px;
+}
+.carousel-indicators .active {
+  margin: -1px;
+}
+.carousel-control {
+  bottom: 0%;
+  position: relative;
+}
+.carousel-control:focus,
+.carousel-control:hover {
+  bottom: 0%;
+  position: relative;
 }
 /*
  * Header
