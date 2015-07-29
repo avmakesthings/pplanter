@@ -8,7 +8,7 @@ Date: July 2015
 Check PPlanter git repository for more details
 
 */
-
+// Patch snap to provide toBack & toFront
 Snap.plugin(function (Snap, Element, Paper, glob) {
     var elproto = Element.prototype;
     elproto.toFront = function () {
@@ -21,8 +21,20 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
 
 // Utility functions
 
+function showOverlay( overlay_id ){
+    var overlays = $('#overlays').children()
+    overlays.each( function( i, overlay ){
+        if( overlay.id != overlay_id){
+            $(overlay).addClass('hidden');
+        }
+        else{
+            $(overlay).removeClass('hidden');
+        }
+    });
+}
+
 function mouseoverHandler(e){
-    Snap(e.target).animate({fill: "rgb(244, 255, 76)", opacity: 0.5}, 500);
+    Snap(e.target).animate({fill: "black", opacity: 0.5}, 500);
 }
 
 function mouseoutHandler(e){
@@ -30,26 +42,8 @@ function mouseoutHandler(e){
 }
 
 function clickHandler(e){
-    console.log(e.target)
-}
-
-function snapDemo(){
-    // First lets create our drawing surface out of existing SVG element
-    // If you want to create new surface just provide dimensions
-    // like s = Snap(800, 600);
-    var s = Snap("#svg");
-    // Lets create big circle in the middle:
-    var bigCircle = s.circle(150, 150, 100);
-    // By default its black, lets change its attributes
-    bigCircle.attr({
-        fill: "#bada55",
-        stroke: "#000",
-        strokeWidth: 5
-    });
-
-    bigCircle.mouseover( mouseoverHandler );
-    bigCircle.mouseout( mouseoutHandler );
-    bigCircle.click( clickHandler );
+    // console.log(e.target)
+    showOverlay( e.target.id+"_overlay" );
 }
 
 function makeProjectDiagram(){
@@ -81,13 +75,13 @@ function contactReady(){
 
 function projectReady(){
     console.log("project ready!!!!")
-
+    // Hide all overlays
+    showOverlay( null );
     // Colors the site
     $( "div.site-wrapper" ).toggleClass( "project-color" );
     // Colors the footer
     $( "footer.mastfoot" ).parent().toggleClass( "project-color" );
     makeProjectDiagram();
-    snapDemo();
 }
 
 function storyReady(){
