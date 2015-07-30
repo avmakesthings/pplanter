@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getPromise"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"BORDER",
+				"border-radius"
+			],
+			[
+				"caro",
+				"carousel-control"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"inde",
+				"indexReady"
+			],
+			[
 				"paddin",
 				"padding-bottom"
 			],
@@ -24,10 +48,6 @@
 				"bolder"
 			],
 			[
-				"padding",
-				"padding-bottom"
-			],
-			[
 				"ta",
 				"target_savings"
 			],
@@ -38,10 +58,6 @@
 			[
 				"type",
 				"type_array"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"padd",
@@ -171,49 +187,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/views/footer.jade",
-			"settings":
-			{
-				"buffer_size": 268,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/views/navbar.jade",
-			"settings":
-			{
-				"buffer_size": 384,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/*\n * Fonts\n */\n\n\n.left{\n    text-align: left;\n}\n\n/*\n * Links/buttons\n */\n\na,a:focus,a:hover {\n    color: #fff;\n}\n\n.btn-default{\n    color: #fff;\n    text-shadow: none;\n    background-color: rgba(0,0,0,.1);\n    border: 1px solid #fff;\n    border-radius: 20px;\n    .btn-default:hover,.btn-default:focus {\n        background-color: black;  \n    }\n}\n\n\n/*\n * Base structure\n */\nhtml,body {\n    height: 100%;\n    background-color: #333;\n}\nbody {\n    color: #fff;\n    text-align: center;\n    text-shadow: 0 1px 3px rgba(0,0,0,.5);\n}\n\n\n\n/* Extra markup and styles for table-esque vertical and horizontal centering */\n.site-wrapper {\n    background-image:url(\"../../src/content/img/pplanter_main.jpg\");\n    display: table;\n    width: 100%;\n    min-height: 100%;\n    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);\n    box-shadow: inset 0 0 100px rgba(0,0,0,.5);\n}\n\n.site-wrapper-inner{\n    position: absolute;\n    top: 0;\n    width:100%;\n}\n\n\n.cover-container {\n    margin-right: auto;\n    margin-left: auto;\n}\n\n/* Padding for spacing */\n.inner {\n    padding: 30px;\n}\n\n.pad-main {\n    position:relative;\n    top:250px;\n    padding:30px;\n}\n\n\n/*\n * Header\n */\n \n.masthead-brand {\n    margin-top: 10px;\n    margin-bottom: 10px;\n    float: left;    \n}\n\n\n.masthead-nav {\n    font-size: 20px;\n    & > a {\n        padding-right: 0;\n        padding-left: 0;\n        font-size: 16px;\n        font-weight: bold;\n        color: #fff;\n        color: rgba(255,255,255,.75);\n        border-bottom: 2px solid transparent;        \n    }\n\n    & > li {\n        margin-left: 20px;\n        display: inline-block;        \n        &>li &>a:hover {      \n            background-color: transparent;\n            border-bottom-color: #a9a9a9;\n            border-bottom-color: rgba(255,255,255,.25);\n        }\n    }\n\n}\n\n// .masthead-nav & > li {\n//     margin-left: 20px;\n//     display: inline-block;\n// }\n\n\n// .masthead-nav & > a {\n//     padding-right: 0;\n//     padding-left: 0;\n//     font-size: 16px;\n//     font-weight: bold;\n//     color: #fff;\n//     color: rgba(255,255,255,.75);\n//     border-bottom: 2px solid transparent;\n// }\n\n\n.masthead-nav &>li &>a:hover,.masthead-nav &>li &>a:focus {\n    background-color: transparent;\n    border-bottom-color: #a9a9a9;\n    border-bottom-color: rgba(255,255,255,.25);\n}\n\n.masthead-nav &>.active &>a,.masthead-nav &>.active &>a:hover,.masthead-nav &>.active &>a:focus {\n    color: #fff;\n    border-bottom-color: #fff;\n}\n\n// @media {\n//     (min-width: {\n//         768px) {\n//             .masthead-brand .masthead;\n//         }\n//         992px) {\n//             .masthead,.mastfoot,.cover-container;\n//         }\n//     }\n// }\n\n\n// @media (min-width:768px) and\n\n\n\n.masthead-nav{\n    float:right;\n}\n\n\n/*\n * Home page\n */\n\n.cover {\n    padding: 0 20px;\n    .btn-lg {\n        padding: 10px 20px;\n        font-weight: bold;\n    }\n}\n\n\n/*\n * Footer\n */\n\n.mastfoot {\n    text-align: left;\n    top:0; \n    padding:15px;\n    position: relative;   \n}\n\n\n.masthead,.mastfoot,.cover-container{\n    vertical-align:middle;\n}\n",
-			"file": "src/stylesheets/pplanter.less",
-			"file_size": 3032,
-			"file_write_time": 130821766550000000,
-			"settings":
-			{
-				"buffer_size": 3030,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/views/layout.jade",
-			"settings":
-			{
-				"buffer_size": 1783,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/views/index.jade",
-			"settings":
-			{
-				"buffer_size": 418,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -256,14 +229,32 @@
 		"/Users/Anastasia/Sites/pplanter/dist",
 		"/Users/Anastasia/Sites/pplanter/dist/css",
 		"/Users/Anastasia/Sites/pplanter/src",
-		"/Users/Anastasia/Sites/pplanter/src/bower_components",
+		"/Users/Anastasia/Sites/pplanter/src/content",
+		"/Users/Anastasia/Sites/pplanter/src/content/img",
+		"/Users/Anastasia/Sites/pplanter/src/js",
+		"/Users/Anastasia/Sites/pplanter/src/stylesheets",
 		"/Users/Anastasia/Sites/pplanter/src/views"
 	],
 	"file_history":
 	[
+		"/Users/Anastasia/Sites/pplanter/src/js/jquery.carousel.fullscreen.js",
+		"/Users/Anastasia/Sites/pplanter/src/views/project.jade",
+		"/Users/Anastasia/Sites/pplanter/src/views/story.jade",
+		"/Users/Anastasia/Sites/pplanter/src/views/contact.jade",
+		"/Users/Anastasia/Sites/pplanter/src/views/index.jade",
+		"/Users/Anastasia/Sites/pplanter/src/stylesheets/pplanter.less",
+		"/Users/Anastasia/Sites/pplanter/src/js/pplanter.js",
+		"/Users/Anastasia/Sites/pplanter/src/views/layout.jade",
+		"/Users/Anastasia/Sites/pplanter/dist/layout.html",
+		"/Users/Anastasia/Sites/pplanter/bower.json",
+		"/Users/Anastasia/Sites/pplanter/src/content/img/pplanter_diagram1.svg",
+		"/Users/Anastasia/Sites/pplanter/src/views/navbar.jade",
+		"/Users/Anastasia/Sites/pplanter/src/views/footer.jade",
+		"/Users/Anastasia/Sites/pplanter/src/content/img/pplanter_diagram4.svg",
+		"/Users/Anastasia/Sites/pplanter/gulpfile.js",
+		"/Users/Anastasia/Sites/pplanter/src/test.html",
 		"/Users/Anastasia/Sites/pplanter/src/views/about.jade",
 		"/Users/Anastasia/Sites/pplanter/dist/index.html",
-		"/Users/Anastasia/Sites/pplanter/gulpfile.js",
 		"/Users/Anastasia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Anastasia/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Anastasia/Sites/pplanter/client/views/aboutContent.jade",
@@ -337,7 +328,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 105.0,
 		"where_history":
 		[
 			""
@@ -348,6 +339,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".proj",
+			".carousel.slide",
+			"carousel",
+			"areas",
+			"png",
+			"    include footer.jade",
 			"pad-main",
 			"nav",
 			"    include footer.jade",
@@ -469,160 +466,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/views/footer.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/views/navbar.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								61,
-								61
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/stylesheets/pplanter.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2954,
-								2954
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3778.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/views/layout.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1342,
-								1342
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 321.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/views/index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

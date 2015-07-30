@@ -23,7 +23,13 @@
 }
 
 .highlight {
-    color: @main-col;
+    color: ;
+}
+
+.light{
+    font-weight:100;
+    line-height: 1.2;
+    font-size:1.5em;
 }
 
 /*
@@ -32,6 +38,12 @@
 
 a,a:focus,a:hover {
     color: #fff;
+}
+
+.link-highlight{
+   a:focus,a:hover{
+    color:@main-col;
+   } 
 }
 
 .btn-default{
@@ -151,7 +163,7 @@ body {
 }
 
 .carousel-caption{
-    top: 200px;
+    top: 230px;
     left: 2%;
     text-align: left;
     right:0;
@@ -183,6 +195,9 @@ body {
     position: relative;
 }
 
+.item.active{
+    top: 0px;
+}
 /*
  * Header
  */

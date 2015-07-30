@@ -23,8 +23,25 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
 
 // Utility functions
 
+// Globals for diagram animation
+var showAtts = {fill: "red", opacity: 0.5}
+var hideAtts = {fill: "#FFFFFF", opacity: 0}
+var keyframe = 500
 
+function diagramIntroAnimation( areas ){
+    var delay = 1000;
 
+    areas.selectAll("*").forEach( function(area, i){
+        setTimeout( function(){ 
+            console.log("area #" + i);
+            area.animate(showAtts, keyframe*4, null, function(){
+                // showOverlay( area.node.id+"_overlay" );
+                $( '#overlays' ).children( "#" + area.node.id + "_overlay" ).removeClass('hidden');
+                area.animate(hideAtts, keyframe*4);
+            });
+        }, i*delay)
+    });
+}
 
 function showOverlay( overlay_id ){
     var overlays = $('#overlays').children()
@@ -39,11 +56,11 @@ function showOverlay( overlay_id ){
 }
 
 function mouseoverHandler(e){
-    Snap(e.target).animate({fill: "red", opacity: 0.5}, 500);
+    Snap(e.target).animate(showAtts, keyframe);
 }
 
 function mouseoutHandler(e){
-    Snap(e.target).animate({ fill: "#FFFFFF", opacity: 0}, 500);
+    Snap(e.target).animate(hideAtts, keyframe);
 }
 
 function clickHandler(e){
@@ -58,7 +75,7 @@ function makeProjectDiagram(){
     // Resize svg to fit div container
     s.attr({"width": "100%", "height": "100%" , "viewBox": "0 0 1280 1020"});
 
-     areas = s.select('#areas');
+    areas = s.select('#areas');
     // Elements in the back of the SVG intercept click events
     areas.toBack();
     areas.selectAll("*").forEach( function(area){
@@ -68,8 +85,9 @@ function makeProjectDiagram(){
         area.mouseover( mouseoverHandler );
         area.mouseout( mouseoutHandler );
         area.click( clickHandler );
-
     })
+
+    diagramIntroAnimation( areas );
 }
 
 // OnLoad functions
@@ -81,6 +99,7 @@ function indexReady(){
 
 function contactReady(){
     console.log("contact ready!!!!")
+    $( "footer.mastfoot" ).parent().toggleClass( "project-color" );    
 }
 
 function projectReady(){
@@ -90,7 +109,7 @@ function projectReady(){
     // Colors the site
     $( "div.site-wrapper" ).toggleClass( "project-color" );
     // Colors the footer
-    $( "footer.mastfoot" ).parent().toggleClass( "project-color" );
+    // $( "footer.mastfoot" ).parent().toggleClass( "project-color" );
     makeProjectDiagram();
 }
 
