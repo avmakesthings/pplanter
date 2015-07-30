@@ -24,13 +24,14 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
 // Utility functions
 
 // Globals for diagram animation
-var showAtts = {fill: "red", opacity: 0.5}
-var hideAtts = {fill: "#FFFFFF", opacity: 0}
+var showAtts = {fill: "red", opacity: 0.5 , stroke: "#FFF", strokeWidth: 10}
+var hideAtts = {fill: "#FFFFFF", opacity: 0 , stroke: "#FFF", strokeWidth: 10}
 var keyframe = 500
 
 function diagramIntroAnimation( areas ){
     var delay = 1000;
 
+    // Sequentially reveal each overlay and highlight each area
     areas.selectAll("*").forEach( function(area, i){
         setTimeout( function(){ 
             console.log("area #" + i);
@@ -41,6 +42,12 @@ function diagramIntroAnimation( areas ){
             });
         }, i*delay)
     });
+
+    // Hide all at the end
+    var finalDelay = 10000//areas.length * delay + 2000
+    setTimeout( function(){ 
+        $( '#overlays' ).children().addClass('hidden')
+    }, finalDelay);
 }
 
 function showOverlay( overlay_id ){

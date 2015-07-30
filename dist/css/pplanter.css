@@ -75,6 +75,9 @@ a:hover {
   max-width: 20%;
   border-radius: 5px;
 }
+.svg-overlay.dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 /*
  * Base structure
  */
@@ -194,12 +197,19 @@ body {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom: solid 3px;
 }
 .masthead-nav  > .active  > a,
 .masthead-nav  > .active  > a:hover,
 .masthead-nav  > .active  > a:focus {
   color: #fff;
   border-bottom-color: #fff;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 15px 0px 15px;
 }
 .masthead-nav {
   float: right;
