@@ -4,7 +4,9 @@
   "description": "packages for pplanter website",
   "main": "index.js",
   "scripts": {
-    "test": "fap"
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,14 +18,11 @@
     "url": "https://github.com/mewchew/pplanter/issues"
   },
   "homepage": "https://github.com/mewchew/pplanter",
-  "dependencies": {
-    "gulp-install": "^0.4.0",
-    "gulp-jade": "^1.1.0",
-    "gulp-livereload": "^3.8.0",
-    "jade": "^1.11.0"
-  },
+  "dependencies": { },
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.0",
+    "jade": "^1.11.0",
     "gulp-concat": "^2.6.0",
     "gulp-jade": "^1.1.0",
     "gulp-jshint": "^1.11.2",
