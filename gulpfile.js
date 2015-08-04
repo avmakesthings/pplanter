@@ -8,7 +8,8 @@ var jshint = require('gulp-jshint'),
     jade = require('gulp-jade'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
-    livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload'),
+    serve = require('gulp-serve');
 
 // Lint Task
 gulp.task('lint', function() {
@@ -83,8 +84,9 @@ gulp.task('watch', function() {
     gulp.watch('src/js/*.js', ['lint', 'scripts']);
     gulp.watch('src/stylesheets/*.less', ['less']);
     gulp.watch('src/views/*.jade',['templates']);
-
 });
+  
+gulp.task('serve', serve({ root: ['dist'], port: 8080}));
 
 // Default Task
-gulp.task('default', ['copy', 'lint', 'less', 'scripts', 'templates', 'watch']);
+gulp.task('default', ['copy', 'lint', 'less', 'scripts', 'templates', 'watch', 'serve']);
