@@ -9,22 +9,14 @@ html(lang='en')
     //- link(rel='icon', href='#{pathToAssets}/docs/favicon.ico')
     title Pplanter
     //- // Bootstrap core CSS
-    //- link(href='#{pathToAssets}/dist/css/bootstrap.min.css', rel='stylesheet')
-    link(href='../bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    link( rel='stylesheet' , href='css/bootstrap.min.css')
     //- // Font-awesome
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    // Just for debugging purposes. Don't actually copy these 2 lines!
-    //if lt IE 9
-      script(src='#{pathToAssets}/docs/assets/js/ie8-responsive-file-warning.js')
-    //- script(src='#{pathToAssets}/docs/assets/js/ie-emulation-modes-warning.js')
-    // IE10 viewport hack for Surface/desktop Windows 8 bug
-    //- script(src='#{pathToAssets}/docs/assets/js/ie10-viewport-bug-workaround.js')
-    // HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
-    //if lt IE 9
-      script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
-      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
-    // Custom stylesheet
+    link( rel='stylesheet' , href="css/font-awesome.min.css")
+    //- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    //- if lt IE 9
+    script(src='js/html5shiv.min.js')
+    script(src='js/respond.min.js')
+    //- Custom stylesheet
     link(href='css/pplanter.css', rel='stylesheet')
   
   body
@@ -37,9 +29,9 @@ html(lang='en')
     // Bootstrap core JavaScript
     // ==================================================
     // Placed at the end of the document so the pages load faster
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')     
-    script(src='../bower_components/bootstrap/dist/js/bootstrap.min.js')
-    script(src='../bower_components/snap.svg/dist/snap.svg-min.js')
+    script(src='js/jquery.min.js')     
+    script(src='js/bootstrap.min.js')
+    script(src='js/snap.svg-min.js')
     script(src='js/jquery.carousel.fullscreen.js')        
     script(src='js/pplanter.js')   
     block bottom     
