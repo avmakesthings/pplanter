@@ -48,6 +48,22 @@ gulp.task('templates', function() {
 });
 
 
+gulp.task('copy', function() {
+  gulp.src('./src/index.html')
+    .pipe(gulp.dest('./dist'));
+  gulp.src('./src/lib/**/*.*')
+    .pipe(gulp.dest('./dist/js'));
+  gulp.src('./src/img/**/*.*')
+    .pipe(gulp.dest('./dist/img'));
+  gulp.src('./src/fonts/**/*.*')
+    .pipe(gulp.dest('./dist/fonts'));    
+  gulp.src('./bower_components/bootstrap/fonts/**/*.*')
+    .pipe(gulp.dest('./dist/fonts'));
+  gulp.src('./bower_components/bootstrap/dist/js/*')
+    .pipe(gulp.dest('./dist/js'));
+  gulp.src('./bower_components/jquery/dist/*')
+    .pipe(gulp.dest('./dist/js'));
+});
 
 // Watch Files For Changes
 gulp.task('watch', function() {
@@ -59,4 +75,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['lint', 'less', 'scripts', 'templates' , 'watch']);
+gulp.task('default', ['copy', 'lint', 'less', 'scripts', 'templates', 'watch']);
