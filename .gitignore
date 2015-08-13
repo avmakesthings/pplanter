@@ -2,6 +2,11 @@
 logs
 *.log
 
+
+#sublime
+pplanter.sublime-project
+pplanter.sublime-workspace
+
 # Runtime data
 pids
 *.pid
