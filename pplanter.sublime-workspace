@@ -187,6 +187,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/views/story.jade",
+			"settings":
+			{
+				"buffer_size": 7560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/views/project.jade",
+			"settings":
+			{
+				"buffer_size": 2031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylesheets/pplanter.less",
+			"settings":
+			{
+				"buffer_size": 4318,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -324,7 +348,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -339,6 +363,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"../src/content/",
 			".proj",
 			".carousel.slide",
 			"carousel",
@@ -445,6 +470,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"src",
 			"img-fullWidth",
 			"chevron/chevron_",
@@ -466,8 +492,99 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/views/story.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1574,
+								1574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/views/project.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/stylesheets/pplanter.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3810,
+								3810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -514,7 +631,7 @@
 	"project": "pplanter.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
