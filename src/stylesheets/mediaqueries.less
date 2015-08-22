@@ -1,8 +1,24 @@
+@import "../../bower_components/bootstrap/less/variables.less";
+
 // /* Extra small devices (phones, less than 768px) */
 // /* No media query since this is the default in Bootstrap */
 
-// /* Small devices (tablets, 768px and up) */
-// @media (min-width: @screen-sm-min) { ... }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+    .navbar-default .navbar-nav > li > a {
+        font-size: 18px;
+        letter-spacing:1px;
+        margin-right: 3px;
+        padding-left: 0px;
+        text-transform: none;
+        text-align:  center;
+        mix-blend-mode: normal;
+        background-color: rgba(255,255,0, 0);
+    }
+}
+
+
+
 
 // /* Medium devices (desktops, 992px and up) */
 // @media (min-width: @screen-md-min) { ... }
