@@ -1,0 +1,29 @@
+extends layout.jade
+
+block content
+  .container-fluid     
+    .row-fixed
+      .col-lg-6.story-text
+        h2.left The problem.
+        |             
+        h3.lead.left
+          | Something about the amount of pee on the streets in urban areas, especially parts of San Francisco....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum            
+        p.lead.left
+        h1.lead.left
+          a.carousel-control(href='ourstory2.html', role='button') Learn More 
+            br 
+            i.fa.fa-arrow-right.fa-3x
+        h2.btn-group(role='group', aria-label='First group')
+          a.btn.btn-story(href='ourstory1.html',type='button') 1
+          a.btn.btn-story(href='ourstory2.html',type='button') 2
+          a.btn.btn-story(href='ourstory3.html',type='button') 3
+          a.btn.btn-story(href='ourstory4.html',type='button') 4    
+          a.btn.btn-story(href='ourstory5.html',type='button') 5
+          a.btn.btn-story(href='ourstory6.html',type='button') 6
+          a.btn.btn-story(href='ourstory7.html',type='button') 7 
+      .col-lg-5
+      .col-lg-1
+
+block bottom
+  script.
+    storyReady1();

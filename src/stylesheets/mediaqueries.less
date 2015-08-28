@@ -6,15 +6,37 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
     .navbar-default .navbar-nav > li > a {
-        font-size: 18px;
+        font-size: 22px;
         letter-spacing:1px;
+        color:black;
         margin-right: 3px;
-        padding-left: 0px;
+        padding-left: 20px;
         text-transform: none;
         text-align:  center;
         mix-blend-mode: normal;
         background-color: rgba(255,255,0, 0);
     }
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+    // border: 3px solid white; 
+    // background-color: yellow;   
+    } 
+
+    .navbar-right{
+        background-color: rgba(255,255,0,.7);            
+        padding-left: 30px;   
+    }
+
+    .navbar-default .navbar-nav  > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        padding: 11px 5px 11px 5px;
+        border-bottom: 0px solid white;
+        font-weight: bold;
+        color: black;
+        // color: #7BBBA6;
+        // background-color: rgba(255,255,0,0.9);      
+    }
+
 }
 
 

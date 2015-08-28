@@ -120,6 +120,42 @@ function projectReady(){
     makeProjectDiagram();
 }
 
-function storyReady(){
+function storyReady1(){
+    $( "div.site-wrapper" ).toggleClass( "img_story1" );
     console.log("story ready!!!!")
 }
+
+function storyReady2(){
+    $( "div.site-wrapper" ).toggleClass( "img_story2" );
+    console.log("story ready!!!!")
+}
+
+function storyReady3(){
+    $( "div.site-wrapper" ).toggleClass( "img_story3" );
+    console.log("story ready!!!!")
+}
+
+
+function storyReady4(){
+    $( "div.site-wrapper" ).toggleClass( "img_story4" );
+    console.log("story ready!!!!")
+}
+
+
+function storyReady5(){
+    $( "div.site-wrapper" ).toggleClass( "img_story5" );
+    console.log("story ready!!!!")
+}
+
+function storyReady6(){
+    $( "div.site-wrapper" ).toggleClass( "img_story6" );
+    console.log("story ready!!!!")
+}
+
+
+function storyReady7(){
+    $( "div.site-wrapper" ).toggleClass( "img_story7" );
+    console.log("story ready!!!!")
+}
+
+

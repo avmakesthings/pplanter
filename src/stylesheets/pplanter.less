@@ -13,9 +13,9 @@
 @link-hover-decoration: underline;
 
 
-/*
+/****************************************************
  * Fonts
- */
+ ****************************/
 
 
 .left{
@@ -38,9 +38,9 @@
     text-shadow:none;
 }
 
-/*
+/****************************************************
  * Links/buttons
- */
+ ****************************/
 
 a,a:focus,a:hover {
     color: #fff;
@@ -76,9 +76,21 @@ a,a:focus,a:hover {
   color: white;
 }
 
-/*
+
+.btn-group, .btn-group-vertical{
+   display:inherit; 
+   // padding-top: 200px;
+}
+
+.btn-story{
+    border: 0px solid #fff; 
+    border-radius: 0px;
+    margin: 6px; 
+}
+
+/****************************************************
  * Images
- */
+ ****************************/
 
 .diagram-size{
     height: 600px!important;
@@ -115,9 +127,10 @@ a,a:focus,a:hover {
     background-color: rgba(0,0,0,0.5);
 }
 
-/*
+/***************************************************
  * Base structure
- */
+ ****************************/
+
 html,body {
     height: 100%;
     background-color: #333;
@@ -135,6 +148,8 @@ body {
     display: table;
     width: 100%;
     min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
     // -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
     // box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
@@ -181,7 +196,7 @@ body {
 .navbar{
     min-height:100px;
     margin-bottom: 0;
-    padding-top:20px;
+    padding-top:20px;      
 }
 
 .nav>li {
@@ -197,6 +212,7 @@ body {
     border-color: rgba(231, 231, 231, 0);   
 }
 
+
 .navbar-default .navbar-brand {
     color: white;
     letter-spacing: 1px;
@@ -208,6 +224,7 @@ body {
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: white;
     background-color: black;
+    border: 3px solid black;    
 }
 
 
@@ -275,9 +292,11 @@ body {
     text-transform: uppercase;
     text-align: left;
     mix-blend-mode: screen;
-    background-color: rgba(255,255,0,.8);
+    background-color: rgba(255,255,0,0.8);
 
 }
+
+
 
 
 /***************************************************
@@ -330,9 +349,9 @@ body {
 }
 
 
-/*
+/***************************************************
  * Home page
- */
+ ****************************/
 
 .cover {
     padding: 0 20px;
@@ -343,9 +362,49 @@ body {
 }
 
 
-/*
+/***************************************************
+ * Story page
+ ****************************/
+
+//toggle classes for full screen background image
+
+.img_story1{
+    background-image:url("../img/pplanter_story01.jpg");    
+}
+
+.img_story2{
+    background-image:url("../img/pplanter_story02.jpg");    
+}
+
+.img_story3{
+    background-image:url("../img/pplanter_story03.jpg");    
+}
+
+.img_story4{
+    background-image:url("../img/pplanter_story04.jpg");    
+}
+
+.img_story5{
+    background-image:url("../img/pplanter_story05.jpg");    
+}
+
+.img_story6{
+    background-image:url("../img/pplanter_story05.jpg");    
+}
+
+.img_story7{
+    background-image:url("../img/pplanter_story05.jpg");    
+}
+
+.story-text{
+    top: 200px;
+    left: 2%;
+}
+
+
+/***************************************************
  * Footer
- */
+ ****************************/
 
 .mastfoot {
     text-align: left;
@@ -358,5 +417,11 @@ body {
 .masthead,.mastfoot,.cover-container{
     vertical-align:middle;
 }
+
+
+
+/*
+ * Media queries
+ */
 
 @import "mediaqueries.less"; 
