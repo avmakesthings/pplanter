@@ -38,6 +38,13 @@
     text-shadow:none;
 }
 
+.logofont{
+    font-size: 30px;
+    font-kerning: 10px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
 /****************************************************
  * Links/buttons
  ****************************/
@@ -185,6 +192,12 @@ body {
     padding:30px;
 }
 
+.pad-mid {
+    position:relative;
+    // top:50px;
+    padding:30px;
+}
+
 
 
 
@@ -215,16 +228,21 @@ body {
 
 .navbar-default .navbar-brand {
     color: white;
-    letter-spacing: 1px;
-    font-size: 30px;
-
+    padding-top: 19;
+    font-size: 32px;
+    font-weight: 300;
+    opacity: .8;
+    // background-color: #757575;
+    min-height: 56px;
+    vertical-align: middle;
 }
 
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: white;
     background-color: black;
-    border: 3px solid black;    
+    border: 3px solid black;
+    margin-bottom: 5px;    
 }
 
 
@@ -347,6 +365,12 @@ body {
 .item.active{
     top: 0px;
 }
+
+.indicators & > .btn:focus, .btn:hover {
+  background-color:none;
+  color: white;
+}
+
 
 
 /***************************************************
