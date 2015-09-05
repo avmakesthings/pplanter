@@ -158,4 +158,7 @@ function storyReady7(){
     console.log("story ready!!!!")
 }
 
-
+function systemReady(){
+    $( "div.site-wrapper" ).toggleClass( "system" );
+    console.log("story ready!!!!")
+}
