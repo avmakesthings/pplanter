@@ -20,7 +20,7 @@ gulp.task('lint', function() {
 
 // Compile Less
 gulp.task('less', function() {
-    return gulp.src('src/stylesheets/*.less')
+    return gulp.src('src/stylesheets/build.less')
         .pipe(less())
         .pipe(gulp.dest('dist/css'))    
 });
