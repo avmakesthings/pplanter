@@ -80,7 +80,7 @@ function makeProjectDiagram(){
     var s = Snap("#project_diagram");
 
     // Resize svg to fit div container
-    s.attr({"width": "100%", "height": "100%" , "viewBox": "0 0 1280 1020"});
+    s.attr({"width": "100%", "height": "100%" });
 
     areas = s.select('#areas');
     // Elements in the back of the SVG intercept click events
@@ -114,7 +114,7 @@ function projectReady(){
     // Hide all overlays
     showOverlay( null );
     // Colors the site
-    $( "div.site-wrapper" ).toggleClass( "project-color" );
+    $( "div.site-wrapper-inner" ).toggleClass( "project-color" );
     // Colors the footer
     // $( "footer.mastfoot" ).parent().toggleClass( "project-color" );
     makeProjectDiagram();

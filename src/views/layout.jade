@@ -20,9 +20,9 @@ html(lang='en')
     link(href='css/build.css', rel='stylesheet')
   
   body
+    include navbar.jade
     .site-wrapper
         .site-wrapper-inner    
-            include navbar.jade
             block content                
     include footer.jade
 
@@ -31,8 +31,7 @@ html(lang='en')
     // Placed at the end of the document so the pages load faster
     script(src='js/jquery.min.js')     
     script(src='js/bootstrap.min.js')
-    script(src='js/snap.svg-min.js')
-    script(src='js/jquery.carousel.fullscreen.js')        
+    script(src='js/snap.svg-min.js')     
     script(src='js/pplanter.js')   
     block bottom     
     //- script(src='/js/holder.js')
